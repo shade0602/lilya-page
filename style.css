@@ -13,7 +13,7 @@ body {
     background-image: url("images/venice.jpg");
     background-size: cover;
     background-position: center;
-    padding: 150px 0;
+    padding: 200px 0;
 }
 
 h1 {
@@ -36,11 +36,12 @@ h1 {
 .learn {
     background-color: #FFE9DE;
     color: #355d82;
+    padding: 70px 0 40px 0;
 }
 
 .learn-title {
     margin-top: 0px;
-    padding-top: 40px;
+    /* padding-top: 40px; */
 }
 
 .learn-info {
@@ -58,6 +59,7 @@ h1 {
     width: 100px;
     height: 100px;
     border-radius: 50%;
+    box-shadow: 1px 1px 10px black;
 }
 
 /* guide section */
@@ -86,4 +88,34 @@ h1 {
 img {
     width: 300px;
     border-radius: 10px;
+}
+
+/* contacts */
+
+.contacts {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 850px;
+    margin: 50px auto;
+    color: #355d82;
+    border: 5px solid #355d82;
+    border-radius: 10px;
+    padding: 30px 0;
+}
+
+ul {
+    text-align: left;
+    list-style-type: none;
+    padding: 0;
+}
+
+.contacts-img {
+    width: 450px;
+}
+
+footer {
+    background-color: #355d82;
+    color: #FFE9DE;
+    padding: 10px;
 }
