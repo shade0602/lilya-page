@@ -6,7 +6,7 @@ body {
 
 /* hero section */
 
-.hero {
+header {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,7 +24,7 @@ h1 {
     margin: 0;
 }
 
-.hero-text {
+.header-text {
     color: #FFE9DE;
     background-color: #8494b4ce;
     padding: 5px 10px;
